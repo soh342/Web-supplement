@@ -1,0 +1,6 @@
+streamlit==1.30.0  # Ensure compatibility with your code
+langchain==0.0.208  # Works with FAISS and HuggingFaceEmbeddings
+transformers==4.31.0  # To support Hugging Face's GPT-J
+python-dotenv==1.0.1
+faiss-cpu==1.7.4  # FAISS for vector search
+sentence-transformers==2.2.2  # For all-MiniLM-L6-v2 embeddings
